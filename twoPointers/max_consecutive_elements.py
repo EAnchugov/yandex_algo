@@ -9,3 +9,5 @@ def max_consecutive_elements(input_str):
         result = max(result, next_letter_idx - cur_letter_idx)
         cur_letter_idx = next_letter_idx
     return result
+
+print(max_consecutive_elements('asdasdasd'))
